@@ -164,7 +164,7 @@ namespace Information_System
                 WriteLine("Database is updated:");
                 foreach (var b in query)
                 {
-                    WriteLine($"Balance is: {b.Balance}, day={b.ID}");//Balance for the days when the buying happen
+                    WriteLine($"Balance is: {b.Balance}, ID={b.ID}");//Balance based on inserted days in a month 
                 }
                 WriteLine("Press a key to exit...");
                 ReadKey();
