@@ -26,7 +26,7 @@ namespace Information_System
             [Key] public int ID { get; set; }
     }
 
-    public class Input_Data : DbContext // for manage, create, update and delete the  books table
+    public class Input_Data : DbContext // for manage, create, update and delete the table
     {
         public DbSet<Model_Input> Input { get; set; }
 
