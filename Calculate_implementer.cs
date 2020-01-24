@@ -23,7 +23,7 @@ namespace Information_System
 
         public double Calculate_balance() //balance based on inserted days in a month 
         {
-            double paycheck, deposit, weight_loaded_truck, weight_empty_truck, price_kg, total_weight;
+            double paycheck, weight_loaded_truck, weight_empty_truck, price_kg, total_weight;
             int num_in_month;
 
             WriteLine("Insert available amount of cash per month: ");
