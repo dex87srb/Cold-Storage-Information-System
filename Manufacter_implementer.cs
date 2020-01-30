@@ -8,7 +8,7 @@ using static System.Console;
 
 namespace Information_System
 {
-    public class Manufacturer_implementer : IProduct_information
+    public class Manufacturer_implementer : IProduct
     {
 
         public static string place;
