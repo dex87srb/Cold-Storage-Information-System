@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Information_System
 {
-  public interface Iinformation
+  public interface IProduct
     {
 
         string Database_Info();
