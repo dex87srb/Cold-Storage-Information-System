@@ -10,7 +10,7 @@ using System.Linq;
 namespace Information_System
 {
 
-    class Calculate_implementer : Interface_Calculate
+    class Calculate_implementer : ICalculate
     {
         public static double deposit;
         public string WriteFullLine(string value) // color every line
