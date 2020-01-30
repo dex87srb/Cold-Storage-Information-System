@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Information_System
 {
-   public interface Interface_Calculate
+   public interface ICalculate
     {    
         double Calculate_balance();
         string WriteFullLine(string value);
