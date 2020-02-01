@@ -7,11 +7,11 @@ namespace Information_System
     class CreatorManufacter : Cold_Storage
     {
        
-        public override IProduct_information FactoryMethod()
+        public override IProduct FactoryMethod()
         {
             return new Manufacturer_implementer();
         }
-        public override Interface_Calculate FactoryMehodCalculate()
+        public override ICalculate FactoryMehodCalculate()
         {
             return new Calculate_implementer();
         }
