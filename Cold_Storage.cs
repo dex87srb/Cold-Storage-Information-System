@@ -9,9 +9,9 @@ namespace Information_System
 
     {
 
-        public abstract IProduct_information FactoryMethod();
+        public abstract IProduct FactoryMethod();
 
-        public abstract Interface_Calculate FactoryMehodCalculate();
+        public abstract ICalculate FactoryMehodCalculate();
 
 
         public string Color()
