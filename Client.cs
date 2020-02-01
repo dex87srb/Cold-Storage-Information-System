@@ -10,7 +10,7 @@ namespace Information_System
     {
       public void Main()
         {
-            ClientCode(new CreatorManufacter());
+            ClientCode(new CreatorManufacturer());
           
         }
 
