@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Information_System
 {
-    class CreatorManufacter : Cold_Storage
+    class CreatorManufacturer : Cold_Storage
     {
        
         public override IProduct FactoryMethod()
