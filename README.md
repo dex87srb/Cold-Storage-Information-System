@@ -1,4 +1,4 @@
-# Cold-Storage(as of food)-Information-System
+# Cold Storage (as of food) Information System
 
 Console app developed in C# .NET core using Factory Method design pattern. 
 The goal is to simulate input of relevant data and to calculate monthly balance, 
