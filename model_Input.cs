@@ -28,6 +28,11 @@ namespace Information_System
 
     public class Input_Data : DbContext // for manage, create, update and delete the table
     {
+        public Input_Data() : base("Info_System")
+        {
+            Database.SetInitializer(new CreateDatabaseIfNotExists<Input_Data>());
+        }
+       
         public DbSet<Model_Input> Input { get; set; }
 
         public DbSet<Model_Calculate> Calculate { get; set; }
