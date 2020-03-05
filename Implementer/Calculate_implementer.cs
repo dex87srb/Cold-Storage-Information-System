@@ -74,7 +74,7 @@ namespace Information_System
                 }
                 WriteLine();
 
-                WriteLine("Insert price(dinara) per kg: ");
+                WriteLine("Insert price per kg: ");
                 WriteLine();
                 while (!double.TryParse(ReadLine(), out price_kg))
                 {
