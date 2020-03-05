@@ -99,7 +99,7 @@ namespace Information_System
             WriteLine();
 
 
-            WriteLine("Input price\n"); //price per kg
+            WriteLine("Input price per kg\n"); //price per kg
 
 
             while (!int.TryParse(ReadLine(), out price))
