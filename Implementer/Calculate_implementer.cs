@@ -54,7 +54,7 @@ namespace Information_System
             {
 
 
-                WriteLine("Insert truck weight: ");
+                WriteLine("Insert loaded truck weight: ");
                 WriteLine();
                 while (!double.TryParse(ReadLine(), out weight_loaded_truck))
                 {
@@ -64,7 +64,7 @@ namespace Information_System
                 }
                 WriteLine();
 
-                WriteLine("Insert loaded truck: ");
+                WriteLine("Insert empty truck weight: ");
                 WriteLine();
                 while (!double.TryParse(ReadLine(), out weight_empty_truck))
                 {
